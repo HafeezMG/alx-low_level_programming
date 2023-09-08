@@ -1,2 +1,4 @@
 #!/bin/bash
-gcc -E $CFILE-0 c
+export CFILE=main.c
+./0-preprocessor
+tail c # 942 "/usr/include/stdio.h" 3 4
